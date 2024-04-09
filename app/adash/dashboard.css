@@ -1,0 +1,28 @@
+
+
+a{
+   color:black;
+   text-decoration: none;
+   display:grid;
+   font-size: 14px;
+   
+
+  }
+
+  .user, .faculty, .class, .subject {
+    display: inline-flex;
+    border: 2px solid black;
+    width: 7vw;
+    height: 11vh;
+    padding: 15px 15vw;
+    margin: 25px 85px;
+    padding-bottom: 50px;
+    padding-left: 45px;
+    border-radius: 17px 17px 17px 17px;
+    margin-left: 13vw;
+    background-color:#ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+  }

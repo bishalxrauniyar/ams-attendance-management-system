@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    padding: 15px;
+    margin: 0vh 10vw;
+}
+h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  h2{
+    text-align: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding:10px 10px;
+    margin:7px 70px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 13px 8vw;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .container {
+  max-width: 900px;
+  padding: 15px;
+  margin: 0vh 10vw;
+  }
+  .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    float:right;
+    margin: 5px 15vw;
+}
+
+.date label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.attendance_date {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.attendance-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="radio"] {
+    margin: 0;
+    display: none;
+}
+ .radio-custom {
+     display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: white;
+    cursor: pointer;
+} 
+ input[type="radio"]:checked + .radio-custom {
+    background-color: #4caf50;
+    border-color: #4caf50;
+} 
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    float:right;
+    margin:10px 15vw;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+success{
+  color:#010018
+}

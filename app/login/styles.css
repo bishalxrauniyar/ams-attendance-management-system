@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	background-image: url(login2.jpg);
+	background-size: cover;
+	background-position: center center;
+    
+	
+}
+
+.container {
+	max-width: 300px;
+	margin: 10vh auto;
+	padding: 20px;
+	background: linear-gradient(140deg, #f5f5f5, #3947f1);
+	border-radius: 5px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: -1;
+	opacity: 0.7;
+  }
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	color: #333;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.text-center {
+	text-align: center;
+}

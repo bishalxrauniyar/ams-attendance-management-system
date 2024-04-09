@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0px 0px 15px 15vw;
+    padding: 3px;
+  }
